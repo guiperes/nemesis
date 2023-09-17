@@ -1,0 +1,272 @@
+  /* CSS HEX 
+--jet: #363635ff;
+--olivine: #aabd8cff;
+--lavender-blush: #f8e5eeff;
+--royal-purple: #7d5ba6ff;
+--brown-sugar: #c57b57ff; */
+
+  body {
+    font-family: 'Anton';
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: none; 
+    color: #363635ff;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  nav {
+    display: flex;
+    background-color: #aabd8cff;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #topo {
+    display: block;
+    padding: 10vh;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #topo h3 {
+    letter-spacing: 0.075rem;
+  }
+
+  .logo-id-topo {
+    min-height: 60vh;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo_nav {
+    display: inline-block;
+    width: auto;
+    max-height: 150px;
+    padding: 0.5rem, 1rem;
+    margin-right: 10px;
+  }
+
+  .logo_title h3 {
+    font-family: 'Anton', sans-serif;
+    margin: auto;
+  }
+
+  .nemesis_nav {
+    display: inline-block;
+    color: #363635ff;
+    margin: auto;
+    padding: 10px;
+  }
+    
+  .menu-item {
+    font-family: 'Anton';
+    list-style: none;
+    display: inline-block;
+    margin: auto 2em;
+    font-style: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #363635;
+  }
+  
+  .menu-item a {
+    color: #363635ff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .logo_topo2 {
+    display: block;
+    margin: 0 auto;
+    max-height: 60vh;
+  }
+
+  .logo_topo h3 {
+    font-family: 'Anton';
+    display: block;
+    text-align: center;
+    color: #363635ff;
+  }
+
+  .menu_hor {
+    display: block;
+    text-align: center;
+    color: #363635ff;
+    font-size: 1.125rem;
+  }
+
+  .menu_hor ul {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  #quem-somos {
+    background-color: #363635;
+    min-height: 100vh;
+  }
+
+  .quem {
+    background-color: #363635;
+    color:lavenderblush;
+    font-family: 'Anton';
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quem h1 {
+    margin-top: 1rem;
+    font-size: 4rem;
+    letter-spacing: 0.075rem;
+  }
+
+  .carousel-caption {
+    font-family: 'Oswald';
+    background-color: rgba(0, 0, 0, 0.7);
+    color: lavenderblush;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    padding: 10px;
+  }
+
+  .carousel-indicators button {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  #servicos {
+    background-color: lavenderblush;
+    min-height: 100vh;
+  }
+
+  .svcs {
+    background-color: lavenderblush;
+    color:#363635;
+    font-family: 'Anton';
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row-id {
+    border-bottom: solid 0.125rem #363635;
+  }
+
+  .svcs h1 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    letter-spacing: 0.075rem;
+  }
+
+  .svcs2 h1 {
+    font-family: 'Anton';
+    font-size: 3rem;
+    letter-spacing: 0.075rem;
+    color:#363635;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .svcs_topic h2, h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 1.75rem;
+    font-family: 'Anton';
+    letter-spacing: 0.075rem;
+  }
+
+  .svcs_topic {
+    font-family: 'Oswald';
+    color: #363635;
+    background-color: lavenderblush;
+    font-size: 1.25rem;
+    letter-spacing: 0.075rem;
+    text-align: center;
+  }
+
+  .svcs_topic2 {
+    font-family: 'Oswald';
+    color: #363635;
+    background-color: lavenderblush;
+    font-size: 1.25rem;
+    letter-spacing: 0.075rem;
+    text-align: center;
+    margin: 2rem auto;
+  }
+
+  .svcs-car-h {
+    font-family: 'Anton';
+    letter-spacing: 0.075rem;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .svcs-car-t {
+    font-family: 'Anton';
+    letter-spacing: 0.075rem;
+    font-size: 1.25rem;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contato {
+    background-color:#363635;
+    min-height: 100vh;
+  }
+
+  .ctt {
+    background-color: #363635;
+    color:lavenderblush;
+    font-family: 'Anton';
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ctt h1 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    letter-spacing: 0.075rem;
+  }
+
+  .form-ctt input, textarea {
+    min-width: 100%;
+  }
+
+  .form-ctt button {
+    max-width: 15%;
+    border: none;
+    font-family: 'Anton';
+    font-size: 1rem;
+    background-color: lavenderblush;
+    color: #363635;
+    letter-spacing: 0.075rem;;
+  }
+
+  
+  /* Adicione aqui as regras para tornar o menu responsivo */
+  @media only screen and (max-width: 600px) {
+    .menu-item {
+      display: block;
+      margin: 5px;
+    }
+  
+    .menu-item a {
+      display: block;
+      padding: 5px;
+    }
+  }
